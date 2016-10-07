@@ -1,0 +1,105 @@
+ *{
+ margin: 0;
+ padding: 0;
+ }
+ 
+body {
+      font-family: arial,verdana,sans-serif;
+     }
+     
+  #container {
+              width: 1200px; 
+              margin: 0 auto;
+              font-family: verdana;
+              padding: 10;
+             }
+             
+  #header {
+           background-image: url(images/newheader3.png);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-color: #d0d0d0;
+           padding-top: 10px;
+           width: 1200px;
+           height: 160px;
+          }
+   #panjanghome {
+                 width: 1200px;
+                }
+      menu ul ul {
+                  display: none;
+                 }
+      menu ul li:hover > ul{
+                            display: block;
+                           }
+      menu ul {
+               background: #efefef;
+               padding: 0;
+               list-style: none;
+               position: relative;
+               display: inline-table;
+              }
+      menu ul:after {
+                     content:""; 
+                     clear: both; 
+                     display: block;
+                    }
+      menu ul li {
+                  float: left;
+                 }
+      menu ul li:hover {
+                        background: #4b545f;
+                       }
+      menu ul li:hover a {
+                          color: #fff;
+                         }
+      menu ul li a {
+                    display: block;
+                    padding: 25px 40px;
+                    color: #757575;
+                    text-decoration: none;
+                   }
+      menu ul ul {
+                  background: #5f6975;
+                  border-radius: 0px;
+                  padding: 0;
+                  position: absolute;
+                  top: 100%;
+                 }
+      menu ul ul li {
+                     float: none;
+                     border-top: 1px solid #6b727c;
+                     border-bottom: 1px solid #575f6a;
+                     position: relative;
+                    }
+     menu ul ul li a {
+                      padding: 15px 40px;
+                      color: #fff
+                     }
+     menu ul ul li a:hover {
+                            background: #4b545f;
+                           }
+     menu ul ul ul {
+                    position: absolute;
+                    left: 100%;
+                    top: 0;  
+                   }
+
+        
+  #content {
+            background-color: #ffffff;
+            width: 700px;
+            float: left;
+           }
+           
+  #right {
+          background-color: #ffffff;
+          width: 300px;
+          float: left;
+         }
+         
+  #footer {
+           background-image: url(images/footer.gif);
+           width: 1000px;
+           float: left;
+          }
